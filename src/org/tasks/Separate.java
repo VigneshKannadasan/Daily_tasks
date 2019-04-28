@@ -6,13 +6,13 @@ public class Separate {
 	public static void main(String[] args) {
 		
 		String strMain ="Vignesh123@!#$"; 
-		String[] number = strMain.split("\\D");
+		String[] numbers = strMain.split("\\D");
 		String[] word = strMain.split("\\d");
 		String[]  character= strMain.split("\\W");
 		 
-			for (int i=0; i <number.length; i++){
+			for (int i=0; i <numbers.length; i++){
 		    	
-		      System.out.println(number[i]);
+		      System.out.println(numbers[i]);
 		    }
 		
 		   
